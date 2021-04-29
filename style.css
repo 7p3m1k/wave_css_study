@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+
+  background: #f0f0f0;
+}
+
+
+.header-wrapper {
+  background-color: steelblue;
+}
+
+.header {
+  width: 50%;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.header .logo {
+  vertical-align: top;
+  margin-top: 50px;
+}
+
+.header .wave {
+  position: absolute;
+  right: 450px;
+  top: 20px;
+}
+
+.main ul {
+  padding: 0;
+  margin-top: -50px;
+  background-color: cornflowerblue;
+  width: 100%;
+  height: auto;
+}
+
+.main li:hover {
+  background-color: royalblue;
+}
+
+.main li {
+  display: inline-block;
+  padding: 15px;
+}
+
+.main li:first-child {
+  background-color: white;
+  margin: 0;
+  margin-right: -4px;
+}
+
+.main li:first-child a {
+  color: black;
+}
+
+li a {
+  font-size: 14px;
+  color: white;
+}
+
+.main {
+  width: 50%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.main-box {
+  width: 80%;
+  display: inline-block;
+}
+
+.section-list {
+  padding: 20px;
+}
+
+.section-list:nth-child(even){
+  border-top: 1px dashed gray;
+  border-bottom: 1px dashed gray;
+}
+
+.section-text {
+  display: inline-block;
+  width: 40%;
+  padding-left: 20px;
+  vertical-align: top;
+}
+
+h2 {
+  color: #0090d2;
+  margin-bottom: 5px;
+}
+
+.section-text p {
+  font-size: 14px;
+  color: #999999;
+
+}
+
+.as {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 20px;
+}
+
+.as a {
+  border-left: 3px solid dimgrey;
+  padding: 5px 0 5px 20px;
+  font-size: 14px;
+  color: dimgrey;
+  display: block;
+}
+
+.as a:hover {
+  color: #0090d2;
+  border-color: #0090d2;
+}
+
+
+.footer {
+  background-color: #333333;
+  margin-top: 30px;
+
+}
+
+.footer-wrapper {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.footer-info ul{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footer-logo {
+  height: 60px;
+}
+
+.footer-info li {
+  color: #666666;
+  font-size: 12px;
+}
+
+.footer-info li:first-child {
+  color: white;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.t, .f, .p {
+  background: url("./images/icon-sprite.png") no-repeat;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.t {
+  width: 30px;
+  height: 30px;
+  background-position: 0 0;
+}
+
+.f {
+  width: 30px;
+  height: 30px;
+  background-position: -30px 0;
+}
+
+.p {
+  width: 30px;
+  height: 30px;
+  background-position: -60px 0;
+}
+
+.t:hover {
+  width: 30px;
+  height: 30px;
+  background-position: 0 -30px;
+}
+
+.f:hover {
+  width: 30px;
+  height: 30px;
+  background-position: -30px -30px;
+}
+
+.p:hover {
+  width: 30px;
+  height: 30px;
+  background-position: -60px -30px;
+}
